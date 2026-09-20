@@ -17,7 +17,7 @@
     "db:diff": "supabase db diff -f",
     "db:push": "supabase db push",
     "db:seed": "supabase db reset",
-    "db:types": "supabase gen types typescript --local > src/types/database.types.ts"
+    "db:types": "supabase gen types typescript --linked > src/types/database.types.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
